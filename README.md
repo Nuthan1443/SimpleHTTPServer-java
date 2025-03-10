@@ -16,17 +16,16 @@ This is a simple HTTP server implemented in Java. It listens for incoming connec
    javac SimpleHTTPServer.java
 3. Run the compiled Java program:
 
-  bash
-  java SimpleHTTPServer
+bash
+   java SimpleHTTPServer
+4. Open a web browser or use a tool like curl to make a request to the server:
 
-4.Open a web browser or use a tool like curl to make a request to the server:
+bash
+   curl http://localhost:8080
+   
+   or visit http://localhost:8080 in your browser.
 
-  bash
-  curl http://localhost:8080
-  
-  or visit http://localhost:8080 in your browser.
-
-  Expected Output
+**Expected Output**
 When the server receives a request, it will respond with the current date and time in the following format:
 
 HTTP/1.1 200 OK
@@ -42,10 +41,10 @@ The server runs indefinitely and listens for incoming connections until manually
 
 To stop the server, use Ctrl+C in the terminal where the server is running.
 
-Limitations
+## Limitations
 This server does not parse incoming HTTP requests or handle HTTP headers.
 
 It's designed for learning purposes and should not be used in production environments.
 
-License
+## License
 This project is open-source and available under the MIT License.
