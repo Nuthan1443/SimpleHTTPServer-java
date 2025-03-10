@@ -26,13 +26,14 @@ This is a simple HTTP server implemented in Java. It listens for incoming connec
 
 ## Expected Output
 When the server receives a request, it will respond with the current date and time in the following format:
-   (`HTTP/1.1 200 OK
-    [Current Date and Time]`)
+
+   `HTTP/1.1 200 OK`
+   ` [Current Date and Time]`
 
 - Example:
 
- (`HTTP/1.1 200 OK
-Mon Mar 10 12:34:56 IST 2025`)
+ `HTTP/1.1 200 OK`
+ `Mon Mar 10 12:34:56 IST 2025`
 
 ## Notes
 - The server runs indefinitely and listens for incoming connections until manually stopped.
